@@ -89,6 +89,14 @@ To install Varunastra using Go, run the following command:
 go install github.com/redhuntlabs/Varunastra/cmd/varunastra@latest
 ```
 
+#### Nix
+
+For Nix or NixOS users is a package available. Keep in mind that the latest releases might only
+be present in the `unstable` channel.
+
+```bash
+nix-env -iA nixos.varunastra
+```
 ### Usage
 
 ```
